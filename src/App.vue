@@ -23,7 +23,7 @@ body {
   background-color: #f8f9fa !important;
 }
 .btn {
-  background-color: #9F2F2E !important;
+  background-color: #9f2f2e !important;
   border: none !important;
   padding: 5px 15px 5px 15px !important;
   color: white !important;

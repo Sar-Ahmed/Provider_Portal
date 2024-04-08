@@ -68,7 +68,7 @@ export default {
           try {
             if (data.status === true) {
               alert("Login Successfully");
-              // his.$router.push({ name: 'HelloWorld' })
+              this.$router.push({ path: "/clients_list" });
             } else {
               alert("Login failed");
             }
