@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="card p-3 mb-5 bg-body rounded">
+    <div class="card p-3 bg-body rounded">
       <div class="d-flex justify-content-between">
         <p>Total Number of Clients: {{ clients.length }}</p>
         <button class="btn btn-primary mb-3" @click="addClient">
@@ -85,24 +85,22 @@ export default {
 .bg-gray-row {
   background-color: #f8f9fa;
 }
-
 .table {
   border: none;
 }
 
-th,
-td {
-  border: none;
-  padding: 8px;
-  border-bottom: 1px solid #ccc;
-}
-
-th {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #ccc;
-}
-
 td {
   color: gray !important;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+th {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  background-color: #f8f9fa;
+}
+th,
+td {
+  padding: 8px;
 }
 </style>
