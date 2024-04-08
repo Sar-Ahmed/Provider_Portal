@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .card {
   max-width: 400px;
   margin: 0 auto;

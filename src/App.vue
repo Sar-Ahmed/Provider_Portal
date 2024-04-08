@@ -1,16 +1,14 @@
 <template>
-  <LoginPage />
+  <router-view />
 </template>
 
 <script>
-import LoginPage from './components/LoginPage.vue'
+import router from "./routes";
 
 export default {
-  name: 'App',
-  components: {
-    LoginPage
-  }
-}
+  name: "App",
+  router,
+};
 </script>
 
 <style>
@@ -18,8 +16,20 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-color: #f8f9fa !important;
+}
+.btn {
+  background-color: #9F2F2E !important;
+  border: none !important;
+  padding: 5px 15px 5px 15px !important;
+  color: white !important;
+}
+.form-label {
+  color: gray;
+  margin-top: 5px;
 }
 </style>
