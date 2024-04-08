@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="card p-3 my-5 bg-body rounded">
-      <h5 class="mb-3 fw-bold">Educational Docs</h5>
+    <div class="card p-3 bg-body rounded mb-3">
+      <h5 class="fw-bold">Educational Docs</h5>
       <table class="table">
         <thead>
           <tr>
@@ -145,8 +145,5 @@ export default {
   cursor: pointer;
 }
 
-.card {
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
+
 </style>

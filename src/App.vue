@@ -1,5 +1,5 @@
 <template>
-  <header class="header" v-if="!isLoginPage()">
+  <header class="header fixed-top" v-if="!isLoginPage()">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -89,5 +89,4 @@ body {
 .dropdown-menu {
   padding: 10px 0px 5px 10px !important;
 }
-
 </style>

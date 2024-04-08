@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="card p-3 bg-body rounded">
+    <div class="card p-3 bg-body rounded border-0">
       <div class="d-flex justify-content-between">
         <p>Total Number of Clients: {{ clients.length }}</p>
         <button class="btn btn-primary mb-3" @click="addClient">
@@ -8,7 +8,7 @@
         </button>
       </div>
 
-      <table class="table table-striped">
+      <table class="border-end-0 border-start-0 table-striped">
         <thead>
           <tr>
             <th>Client Legal Name</th>
@@ -76,17 +76,8 @@ export default {
 </script>
 
 <style scoped>
-.card {
-  max-width: 2000px;
-  margin: 0 auto;
-  margin-top: 100px;
-  border: none;
-}
 .bg-gray-row {
   background-color: #f8f9fa;
-}
-.table {
-  border: none;
 }
 
 td {
